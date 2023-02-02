@@ -1,0 +1,11 @@
+Rerquirement before running the app:
+
+Install MySQL 
+
+Python Modules to be install:
+pip install pyfiglet
+pip install pandas
+pip install mysql-connector-python
+
+
+Enter the Password and Database name in app.py
