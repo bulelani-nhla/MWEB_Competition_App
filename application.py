@@ -90,6 +90,8 @@ def main():
                 print(e)
                 winners = input("How many Winners needed:")
 
+    ####### 4. Random select winners  ###########################################
+
     PullWinners()
 
     # Logging number of entries into log file

@@ -79,7 +79,7 @@ def create_table_and_insert_data(Final_ID, csv_file, cursor, connection):
 
 # Draw machine handle
 def PullWinners():
-    print('Press enter to pull the winners of the competition!')
+    print('Press Enter to random select the winners of the competition!')
     input()
 
 # Winners pool  
