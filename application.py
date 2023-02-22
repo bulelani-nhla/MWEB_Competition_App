@@ -19,6 +19,7 @@ def main():
 
     # Home page of the console App
     Home_page()
+    
 
     ##### 1. Input name of csv file (Excel/CSV)  ###################################
     
@@ -54,7 +55,7 @@ def main():
 
     # Generating random competition id number
     rand_num= random.randint(0,10000)
-    Competition_ID = 'Comp_{}_'+str(rand_num)
+    Competition_ID = 'Comp'+str(rand_num) +'_{}'
     Final_ID = Competition_ID.format(cpuser_input)
     print("Competition_ID :" , Final_ID + "\n")
 
@@ -71,11 +72,14 @@ def main():
     file = open(text_file, "w")
 
     # Write to text file include datetime
-    e = datetime.datetime.now()
-    file.writelines(e.strftime("%Y-%m-%d %H:%M:%S")+"\n"+'Competition ID : '+Final_ID)
+    e = datetime.datetime.now() 
+    file.write(e.strftime("%Y-%m-%d %H:%M:%S"))
+    file.write('\nCompetition ID : '+Final_ID)
     # *********************************************************************************
 
-    
+
+
+   
 
 
     ####### 3. How many Winners needed? ###########################################

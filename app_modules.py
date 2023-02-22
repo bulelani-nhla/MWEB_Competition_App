@@ -45,7 +45,8 @@ def validate_csv(csv_file):
 
 # Error Handler Competition Name:
 def validate_compname(input_string):
-    pattern = r"^[A-Za-z0-9]+$"
+    # Regular expressions specify the rules for the set of possible strings that you want to match
+    pattern = r"^[A-Za-z0-9]+$"                 
     if re.search(pattern, input_string):
         return input_string
     else:
@@ -53,7 +54,7 @@ def validate_compname(input_string):
 
 # Error Handler Function for Winners needed?       
 def validate_winners(input_string):
-    pattern = r"^\d+$"
+    pattern = r"^\d+$"                          
     if re.search(pattern, input_string):
         return input_string
     else:
@@ -74,12 +75,22 @@ def create_table_and_insert_data(Final_ID, csv_file, cursor, connection):
             connection.commit()
 
 
-
-
-
 # Draw machine handle
 def PullWinners():
-    print('Press Enter to random select the winners of the competition!')
+    import time
+
+    blink_str = 'Press Enter to random select the winners!'
+    num_blinks = 3  # number of times to blink the string
+
+    for i in range(num_blinks):
+        blink_output = ''
+        for char in blink_str:
+            blink_output += char + ' '
+        print('\r' + ' ' * len(blink_str) * 2, end='')  # clear the previous output
+        time.sleep(0.5)  # pause for half a second
+        print('\r' + blink_output, end='')  # display the blinking string
+        time.sleep(0.5)  # pause for half a second
+
     input()
 
 # Winners pool  

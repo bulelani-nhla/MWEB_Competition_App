@@ -27,3 +27,14 @@ Install virtualenv via pip on the Host Machine
 ------------------------------------------------------------
 
 	> python -m venv virtualFolder
+
+You can create a .gitignore file in your repository's root directory [virtualFolder] to tell Git which files and directories to ignore when you make a commit.
+
+
+
+
+--------------------------------------------------------------------------
+
+Configur the connection to the database using environment variables for the password and database name
+
+
