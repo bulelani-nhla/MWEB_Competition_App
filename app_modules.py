@@ -6,6 +6,7 @@ import os
 import pyfiglet
 import re
 import csv
+import time
 
 # Database connection function
 def create_connection():
@@ -77,7 +78,7 @@ def create_table_and_insert_data(Final_ID, csv_file, cursor, connection):
 
 # Draw machine handle
 def PullWinners():
-    import time
+    
 
     blink_str = 'Press Enter to random select the winners!'
     num_blinks = 3  # number of times to blink the string
