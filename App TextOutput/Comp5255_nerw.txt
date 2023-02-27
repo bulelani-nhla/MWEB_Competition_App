@@ -1,0 +1,8 @@
+2023-02-27 14:45:58
+Competition ID : Comp5255_nerw
+Winners selected: 4
+  first_name last_name phone_number              email    winners
+0       Bono     Ville   0813428403      bono@bono.com  1st Prize
+1       Jill     Scott   0724845298   mary.j@gmail.com  2nd Prize
+2      Marry      Jane   0724862390  marry.j@gmail.com  3rd Prize
+3      Frank   Cancelo   0734562354  frank@vodacom.com  4th Prize

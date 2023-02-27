@@ -1,0 +1,8 @@
+2023-02-27 15:22:10
+Competition ID : Comp7197_nhla
+Winners selected: 4
+  first_name last_name phone_number               email    winners
+0      Marry      Jane   0724862390   marry.j@gmail.com  1st Prize
+1      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  2nd Prize
+2       Tony  Harnedaz   0824862390      romy@gmail.com  3rd Prize
+3       Jill     Scott   0724845298    mary.j@gmail.com  4th Prize

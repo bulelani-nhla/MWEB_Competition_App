@@ -1,0 +1,8 @@
+2023-02-27 09:19:19
+Competition ID : Comp138_newport
+Winners selected: 4
+  first_name last_name phone_number             email    winners
+0       Jill     Scott   0724845298  mary.j@gmail.com  1st Prize
+1       Rita    Lehasa   0814833390   rita@sabc.co.za  2nd Prize
+2       Romy      Wick   0711678983     romy@mweb.com  3rd Prize
+3      Thuli   Motaung   0734002390   thuli@yahoo.com  4th Prize

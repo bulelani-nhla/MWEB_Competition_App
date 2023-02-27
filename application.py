@@ -7,8 +7,6 @@ import datetime
 
 
 
-
-
 def main():
 
     # Connect to the database
@@ -23,18 +21,14 @@ def main():
     
 
     ##### 1. Input name of csv file (Excel/CSV)  ###################################
-    class bcolors:
-        OK = '\033[92m' #GREEN
-        WARNING = '\033[93m' #YELLOW
-        FAIL = '\033[91m' #RED
-        RESET = '\033[0m' #RESET COLOR
+    
 
 
     csv_file = input("Enter the csv filename to be read:   ")
     while True:
         try:
             validated_input = validate_csv(csv_file)                      # Use Error Handler function from app_modules
-            print(f"Validated input: {validated_input}")
+            print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
             break
         except ValueError as e:
             print(e)
@@ -42,7 +36,7 @@ def main():
         except FileNotFoundError as e1:
             print(e1)
             csv_file = input("Enter the csv filename to be read:   ")       
-    print(f"{bcolors.OK}File selected: {csv_file}{bcolors.RESET}\n")             
+    print(f"File selected: {csv_file}\n")             
 
     # Logging the csv filename into log file 
     log_csv(csv_file)
@@ -54,7 +48,7 @@ def main():
     while True:
         try:
             validated_input = validate_compname(cpuser_input)       # Use Error Handler function from app_modules
-            print(f"Validated input: {validated_input}")
+            print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
             break
         except ValueError as e:
             print(e)
@@ -95,7 +89,7 @@ def main():
     while True:
             try:
                 validated_input = validate_winners(winners)       # Use Error Handler function from app_modules
-                print(f"Validated input: {validated_input}")
+                print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
                 break
             except ValueError as e:
                 print(e)
@@ -125,7 +119,7 @@ def main():
                 #Create 'Winners' Column
                 Winner_Display['winners'] = pd.DataFrame(prizes)
                             
-                print("\n-------- Congratulation !!! The Winners Are --------\n\n",Winner_Display.head())
+                print(f"{bcolors.PRESS}\n-------- Congratulation !!! The Winners Are --------{bcolors.RESET}\n\n",Winner_Display.head())
                 print(" ")
 
                 # Logging number of entries into log file

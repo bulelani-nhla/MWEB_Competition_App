@@ -9,6 +9,15 @@ import csv
 import time
 from termcolor import colored
 
+# Adding colour to text using ANSI Escape Codes to Print Colored Text in Python
+class bcolors:
+        PRESS = '\033[46m' #CYAN
+        OK = '\033[92m' #GREEN
+        WARNING = '\033[93m' #YELLOW
+        FAIL = '\033[91m' #RED
+        RESET = '\033[0m' #RESET COLOR
+
+
 # Database connection function
 def create_connection():
         """
@@ -29,8 +38,7 @@ def create_connection():
 def Home_page():
 
         header_1 = pyfiglet.figlet_format("WELCOME TO MWEB COMPETITION APP !!!", font = "digital")
-        header_2 = pyfiglet.figlet_format("Competition App")
-        text = colored(header_2, 'red', attrs=['reverse', 'blink'])
+        header_2 = pyfiglet.figlet_format("MWEB Competition App")
         para_1 = "\n[Verion 1.0.1]\nCopyright (c) [2023] \nAll rights reserved.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED , WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, \nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n"   
         print(header_1, header_2, para_1)
 
@@ -38,7 +46,7 @@ def Home_page():
 # Error Handler Function for csv file
 def validate_csv(csv_file):
     if not csv_file.endswith('.csv'):
-        raise ValueError("Invalid file type. Please enter a CSV filename that ends with .csv ")
+        raise ValueError(f"{bcolors.FAIL}Invalid file type. Please enter a CSV filename that ends with .csv{bcolors.RESET}")
     if not os.path.isfile(csv_file):
         raise FileNotFoundError(f"{csv_file} not found.")
     else:
@@ -53,7 +61,7 @@ def validate_compname(input_string):
     if re.search(pattern, input_string):
         return input_string
     else:
-        raise ValueError("Input should contain only letters, numbers and no spacing inbetween")
+        raise ValueError(f"{bcolors.FAIL}Input should contain only letters, numbers and no spacing inbetween{bcolors.RESET}")
 
 # Error Handler Function for Winners needed?       
 def validate_winners(input_string):
@@ -61,7 +69,7 @@ def validate_winners(input_string):
     if re.search(pattern, input_string):
         return input_string
     else:
-        raise ValueError("Input should contain only numbers")
+        raise ValueError(f"{bcolors.FAIL}Input should contain only numbers{bcolors.RESET}")
 
 
 # Creating Table from csv data save database as competition id number
