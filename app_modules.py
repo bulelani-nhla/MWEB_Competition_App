@@ -7,7 +7,7 @@ import pyfiglet
 import re
 import csv
 import time
-from termcolor import colored
+
 
 # Adding colour to text using ANSI Escape Codes to Print Colored Text in Python
 class bcolors:
