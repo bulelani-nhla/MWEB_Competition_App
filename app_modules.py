@@ -7,6 +7,7 @@ import pyfiglet
 import re
 import csv
 import time
+from termcolor import colored
 
 # Database connection function
 def create_connection():
@@ -29,6 +30,7 @@ def Home_page():
 
         header_1 = pyfiglet.figlet_format("WELCOME TO MWEB COMPETITION APP !!!", font = "digital")
         header_2 = pyfiglet.figlet_format("Competition App")
+        text = colored(header_2, 'red', attrs=['reverse', 'blink'])
         para_1 = "\n[Verion 1.0.1]\nCopyright (c) [2023] \nAll rights reserved.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED , WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, \nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n"   
         print(header_1, header_2, para_1)
 

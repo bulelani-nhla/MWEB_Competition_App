@@ -8,6 +8,7 @@ import datetime
 
 
 
+
 def main():
 
     # Connect to the database
@@ -22,7 +23,13 @@ def main():
     
 
     ##### 1. Input name of csv file (Excel/CSV)  ###################################
-    
+    class bcolors:
+        OK = '\033[92m' #GREEN
+        WARNING = '\033[93m' #YELLOW
+        FAIL = '\033[91m' #RED
+        RESET = '\033[0m' #RESET COLOR
+
+
     csv_file = input("Enter the csv filename to be read:   ")
     while True:
         try:
@@ -35,7 +42,7 @@ def main():
         except FileNotFoundError as e1:
             print(e1)
             csv_file = input("Enter the csv filename to be read:   ")       
-    print(f"File selected: {csv_file}\n")             
+    print(f"{bcolors.OK}File selected: {csv_file}{bcolors.RESET}\n")             
 
     # Logging the csv filename into log file 
     log_csv(csv_file)
