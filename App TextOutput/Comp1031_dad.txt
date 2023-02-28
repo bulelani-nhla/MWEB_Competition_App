@@ -1,8 +1,0 @@
-2023-02-27 15:20:46
-Competition ID : Comp1031_dad
-Winners selected: 4
-  first_name last_name phone_number            email    winners
-0       Tony  Harnedaz   0824862390   romy@gmail.com  1st Prize
-1       Bono     Ville   0813428403    bono@bono.com  2nd Prize
-2       Rita    Lehasa   0814833390  rita@sabc.co.za  3rd Prize
-3       Romy      Wick   0711678983    romy@mweb.com  4th Prize

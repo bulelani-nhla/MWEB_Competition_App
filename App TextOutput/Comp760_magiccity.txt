@@ -1,8 +1,0 @@
-2023-02-24 13:08:59
-Competition ID : Comp760_magiccity
-Winners selected: 4
-  first_name last_name phone_number               email    winners
-0       John    Morela   0814662390  john.m@outlook.com  1st Prize
-1      Frank   Cancelo   0734562354   frank@vodacom.com  2nd Prize
-2      Thuli   Motaung   0734002390     thuli@yahoo.com  3rd Prize
-3       Romy      Wick   0711678983       romy@mweb.com  4th Prize

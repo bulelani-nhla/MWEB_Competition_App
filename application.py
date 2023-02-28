@@ -28,7 +28,9 @@ def main():
     while True:
         try:
             validated_input = validate_csv(csv_file)                      # Use Error Handler function from app_modules
-            print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+            # print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+            # Uncoment the above print code if running on linux and commnet the below code: optional
+            print(f"Validated input: {validated_input}")
             break
         except ValueError as e:
             print(e)
@@ -48,7 +50,9 @@ def main():
     while True:
         try:
             validated_input = validate_compname(cpuser_input)       # Use Error Handler function from app_modules
-            print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+            # print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+            # Uncoment the above print code if running on linux and commnet the below code: optional
+            print(f"Validated input: {validated_input}")
             break
         except ValueError as e:
             print(e)
@@ -89,7 +93,9 @@ def main():
     while True:
             try:
                 validated_input = validate_winners(winners)       # Use Error Handler function from app_modules
-                print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+                # print(f"{bcolors.OK}Validated input: {validated_input}{bcolors.RESET}")
+                # Uncoment the above print code if running on linux and commnet the below code: optional
+                print(f"Validated input: {validated_input}")
                 break
             except ValueError as e:
                 print(e)
@@ -119,7 +125,8 @@ def main():
                 #Create 'Winners' Column
                 Winner_Display['winners'] = pd.DataFrame(prizes)
                             
-                print(f"{bcolors.PRESS}\n-------- Congratulation !!! The Winners Are --------{bcolors.RESET}\n\n",Winner_Display.head())
+                # print(f"{bcolors.PRESS}\n---------------- Congratulation !!! The Winners Are ----------------{bcolors.RESET}\n\n",Winner_Display.head())
+                print("\n---------------- Congratulation !!! The Winners Are ----------------\n\n",Winner_Display)
                 print(" ")
 
                 # Logging number of entries into log file

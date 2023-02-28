@@ -1,4 +1,3 @@
-
 # Competitions App
 
 This a competition app that reads data from a csv and then data is imported and saved into a MySQL database, with the competition name/id used to link to the imported data, the program then asks how many winners are needed and randomly selects the winners from csv records, displaying the results in the console. The results are saved in the database and output to a text file that includes competition details, winners, and contact information. Finally, auditing is added to track all procedures
@@ -10,7 +9,7 @@ Requirement before running the app:
 
 •	Make sure a Python Interpreter is installed on the    Host Machine
 
-•	Install MySQL with MySQL Installer
+•	Install MySQL with MySQL Installer for Windows OS
 
 
 •	Install Python Modules with pip
@@ -36,4 +35,18 @@ python -m venv virtualFolder
 
 -------------------------------------------.
 
-Configure the connection to the database using environment variables for the password and database name
+Configure the connection to the database using environment variables for the password and database name in Windows OS
+https://www.youtube.com/watch?v=NDbr32xMUDQ&list=WL&index=2&t=74s
+
+Create a database named testdb on mysql
+[![asciicast](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k.svg)](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k)
+
+
+)
+
+Generating a new SSH key and adding it to the ssh-agent 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+
+

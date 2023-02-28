@@ -1,0 +1,40 @@
+Rerquirement before running the app:
+
+Install MySQL with MySQL Installer
+
+Python Modules to be install:
+
+	> pip install mysql-connector-python
+	> pip install pyfiglet
+	> pip install pandas
+
+
+--------------------------------------------------------------------------
+
+
+
+
+1. Make sure a Python Interpreter is installed on the Host Machine
+
+Install virtualenv via pip on the Host Machine
+----------------------------------------------
+
+	> python -m pip install --user virtualenv
+	> python -m virtualenv --help
+
+
+2. Create a virtual environment folder in the project directory
+------------------------------------------------------------
+
+	> python -m venv virtualFolder
+
+You can create a .gitignore file in your repository's root directory [virtualFolder] to tell Git which files and directories to ignore when you make a commit.
+
+
+
+
+--------------------------------------------------------------------------
+
+Configur the connection to the database using environment variables for the password and database name
+
+

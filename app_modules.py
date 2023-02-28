@@ -10,13 +10,14 @@ import time
 
 
 # Adding colour to text using ANSI Escape Codes to Print Colored Text in Python
+''' UNCOMMENT FOR LINUX OS
 class bcolors:
         PRESS = '\033[46m' #CYAN
         OK = '\033[92m' #GREEN
         WARNING = '\033[93m' #YELLOW
         FAIL = '\033[91m' #RED
         RESET = '\033[0m' #RESET COLOR
-
+'''
 
 # Database connection function
 def create_connection():
@@ -46,7 +47,9 @@ def Home_page():
 # Error Handler Function for csv file
 def validate_csv(csv_file):
     if not csv_file.endswith('.csv'):
-        raise ValueError(f"{bcolors.FAIL}Invalid file type. Please enter a CSV filename that ends with .csv{bcolors.RESET}")
+        # raise ValueError(f"{bcolors.FAIL}Invalid file type. Please enter a CSV filename that ends with .csv{bcolors.RESET}")
+        # Uncoment the above raise ValueError code if running on linux and commnet the below code: optional
+        raise ValueError("Invalid file type. Please enter a CSV filename that ends with .csv")
     if not os.path.isfile(csv_file):
         raise FileNotFoundError(f"{csv_file} not found.")
     else:
@@ -61,7 +64,9 @@ def validate_compname(input_string):
     if re.search(pattern, input_string):
         return input_string
     else:
-        raise ValueError(f"{bcolors.FAIL}Input should contain only letters, numbers and no spacing inbetween{bcolors.RESET}")
+        # raise ValueError(f"{bcolors.FAIL}Input should contain only letters, numbers and no spacing inbetween{bcolors.RESET}")
+        # Uncoment the above raise ValueError code if running on linux and commnet the below code: optional
+        raise ValueError("Input should contain only letters, numbers and no spacing inbetween")
 
 # Error Handler Function for Winners needed?       
 def validate_winners(input_string):
@@ -69,7 +74,9 @@ def validate_winners(input_string):
     if re.search(pattern, input_string):
         return input_string
     else:
-        raise ValueError(f"{bcolors.FAIL}Input should contain only numbers{bcolors.RESET}")
+        # raise ValueError(f"{bcolors.FAIL}Input should contain only numbers{bcolors.RESET}")
+        # Uncoment the above raise ValueError code if running on linux and commnet the below code: optional
+        raise ValueError("Input should contain only numbers")
 
 
 # Creating Table from csv data save database as competition id number

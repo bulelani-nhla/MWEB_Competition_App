@@ -1,105 +1,31 @@
-[2023-02-22 14:22:52,751]--- [***** Application Started. *****]
-[2023-02-22 14:23:03,085]--- [File sample.csv Uploaded To Database.]
-[2023-02-22 14:23:28,610]--- [Competition_ID : Comp2506_Iphone]
-[2023-02-22 14:23:45,739]--- [Winners selected: 3]
-[2023-02-22 14:23:46,849]--- [  first_name last_name phone_number               email    winners
-0       Bono     Ville   0813428403       bono@bono.com  1st Prize
-1      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  2nd Prize
-2       Jill     Scott   0724845298    mary.j@gmail.com  3rd Prize]
-[2023-02-22 14:23:46,933]--- [***** Application Ended. *****]
-[2023-02-22 14:25:47,179]--- [***** Application Started. *****]
-[2023-02-22 14:25:54,687]--- [File sample.csv Uploaded To Database.]
-[2023-02-22 14:28:49,600]--- [***** Application Started. *****]
-[2023-02-22 14:28:59,941]--- [File sample.csv Uploaded To Database.]
-[2023-02-22 14:37:41,001]--- [***** Application Started. *****]
-[2023-02-22 14:37:48,482]--- [File sample.csv Uploaded To Database.]
-[2023-02-22 14:38:05,016]--- [Competition_ID : Comp1186_PowerSupply]
-[2023-02-22 14:38:17,027]--- [Winners selected: 4]
-[2023-02-22 14:38:17,505]--- [  first_name last_name phone_number               email    winners
-0       Bono     Ville   0813428403       bono@bono.com  1st Prize
-1      Thuli   Motaung   0734002390     thuli@yahoo.com  2nd Prize
-2       Tony  Harnedaz   0824862390      romy@gmail.com  3rd Prize
-3      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  4th Prize]
-[2023-02-22 14:38:17,517]--- [***** Application Ended. *****]
-[2023-02-24 14:41:04,893]--- [***** Application Started. *****]
-[2023-02-24 14:43:19,605]--- [***** Application Started. *****]
-[2023-02-24 14:43:29,206]--- [File sample.csv Uploaded To Database.]
-[2023-02-24 14:43:37,741]--- [Competition_ID : Comp7190_nhla]
-[2023-02-24 14:43:43,761]--- [Winners selected: 4]
-[2023-02-24 14:43:45,163]--- [  first_name last_name phone_number               email    winners
-0       John    Morela   0814662390  john.m@outlook.com  1st Prize
-1      Marry      Jane   0724862390   marry.j@gmail.com  2nd Prize
-2       Tony  Harnedaz   0824862390      romy@gmail.com  3rd Prize
-3      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  4th Prize]
-[2023-02-24 14:43:45,178]--- [***** Application Ended. *****]
-[2023-02-24 14:44:26,594]--- [***** Application Started. *****]
-[2023-02-24 14:46:26,859]--- [***** Application Started. *****]
-[2023-02-24 14:47:01,069]--- [***** Application Started. *****]
-[2023-02-24 14:48:05,625]--- [***** Application Started. *****]
-[2023-02-27 11:49:02,310]--- [***** Application Started. *****]
-[2023-02-27 11:49:08,025]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 14:45:04,570]--- [***** Application Started. *****]
-[2023-02-27 14:45:23,491]--- [***** Application Started. *****]
-[2023-02-27 14:45:37,794]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 14:45:58,002]--- [Competition_ID : Comp5255_nerw]
-[2023-02-27 14:46:08,487]--- [Winners selected: 4]
-[2023-02-27 14:46:09,743]--- [  first_name last_name phone_number              email    winners
-0       Bono     Ville   0813428403      bono@bono.com  1st Prize
-1       Jill     Scott   0724845298   mary.j@gmail.com  2nd Prize
-2      Marry      Jane   0724862390  marry.j@gmail.com  3rd Prize
-3      Frank   Cancelo   0734562354  frank@vodacom.com  4th Prize]
-[2023-02-27 14:46:09,757]--- [***** Application Ended. *****]
-[2023-02-27 14:53:05,066]--- [***** Application Started. *****]
-[2023-02-27 14:53:17,549]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 14:59:30,952]--- [***** Application Started. *****]
-[2023-02-27 14:59:47,178]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 15:00:16,940]--- [Competition_ID : Comp7752_nhla]
-[2023-02-27 15:00:33,517]--- [Winners selected: 4]
-[2023-02-27 15:00:33,744]--- [  first_name last_name phone_number               email    winners
-0       Tony  Harnedaz   0824862390      romy@gmail.com  1st Prize
-1       Rita    Lehasa   0814833390     rita@sabc.co.za  2nd Prize
-2      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  3rd Prize
-3      Thuli   Motaung   0734002390     thuli@yahoo.com  4th Prize]
-[2023-02-27 15:00:33,763]--- [***** Application Ended. *****]
-[2023-02-27 15:06:29,136]--- [***** Application Started. *****]
-[2023-02-27 15:14:32,673]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 15:15:23,344]--- [Competition_ID : Comp194_nweport]
-[2023-02-27 15:15:34,961]--- [Winners selected: 6]
-[2023-02-27 15:15:35,217]--- [  first_name last_name phone_number               email    winners
-0      Thuli   Motaung   0734002390     thuli@yahoo.com  1st Prize
-1      Marry      Jane   0724862390   marry.j@gmail.com  2nd Prize
-2      Frank   Cancelo   0734562354   frank@vodacom.com  3rd Prize
-3      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  4th Prize
-4       Bono     Ville   0813428403       bono@bono.com  5th Prize
-5       Jill     Scott   0724845298    mary.j@gmail.com  6th Prize]
-[2023-02-27 15:15:35,255]--- [***** Application Ended. *****]
-[2023-02-27 15:20:33,056]--- [***** Application Started. *****]
-[2023-02-27 15:20:43,474]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 15:20:46,520]--- [Competition_ID : Comp1031_dad]
-[2023-02-27 15:20:57,105]--- [Winners selected: 4]
-[2023-02-27 15:20:57,121]--- [  first_name last_name phone_number            email    winners
-0       Tony  Harnedaz   0824862390   romy@gmail.com  1st Prize
-1       Bono     Ville   0813428403    bono@bono.com  2nd Prize
-2       Rita    Lehasa   0814833390  rita@sabc.co.za  3rd Prize
-3       Romy      Wick   0711678983    romy@mweb.com  4th Prize]
-[2023-02-27 15:20:57,136]--- [***** Application Ended. *****]
-[2023-02-27 15:21:54,682]--- [***** Application Started. *****]
-[2023-02-27 15:22:01,331]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 15:22:10,450]--- [Competition_ID : Comp7197_nhla]
-[2023-02-27 15:22:15,789]--- [Winners selected: 4]
-[2023-02-27 15:22:15,804]--- [  first_name last_name phone_number               email    winners
+[2023-02-28 16:15:54,471]--- [***** Application Started. *****]
+[2023-02-28 16:16:06,659]--- [File sample.csv Uploaded To Database.]
+[2023-02-28 16:16:24,028]--- [Competition_ID : Comp3065_DellPCs]
+[2023-02-28 16:16:37,630]--- [Winners selected: 4]
+[2023-02-28 16:16:38,404]--- [  first_name last_name phone_number              email    winners
+0       Romy      Wick   0711678983      romy@mweb.com  1st Prize
+1      Frank   Cancelo   0734562354  frank@vodacom.com  2nd Prize
+2       Bono     Ville   0813428403      bono@bono.com  3rd Prize
+3      Marry      Jane   0724862390  marry.j@gmail.com  4th Prize]
+[2023-02-28 16:16:38,450]--- [***** Application Ended. *****]
+[2023-02-28 16:18:19,767]--- [***** Application Started. *****]
+[2023-02-28 16:18:25,974]--- [File sample.csv Uploaded To Database.]
+[2023-02-28 16:18:54,649]--- [Competition_ID : Comp9143_HPpcs]
+[2023-02-28 16:19:01,734]--- [Winners selected: 3]
+[2023-02-28 16:19:01,747]--- [  first_name last_name phone_number               email    winners
 0      Marry      Jane   0724862390   marry.j@gmail.com  1st Prize
+1       Rita    Lehasa   0814833390     rita@sabc.co.za  2nd Prize
+2       John    Morela   0814662390  john.m@outlook.com  3rd Prize]
+[2023-02-28 16:19:01,759]--- [***** Application Ended. *****]
+[2023-02-28 16:19:37,911]--- [***** Application Started. *****]
+[2023-02-28 16:19:44,472]--- [File sample.csv Uploaded To Database.]
+[2023-02-28 16:19:57,672]--- [Competition_ID : Comp2281_Iphones]
+[2023-02-28 16:20:04,682]--- [Winners selected: 6]
+[2023-02-28 16:20:04,696]--- [  first_name last_name phone_number               email    winners
+0       Rita    Lehasa   0814833390     rita@sabc.co.za  1st Prize
 1      Zweli    Mkhize   0714844390  mkhize.z@gmail.com  2nd Prize
-2       Tony  Harnedaz   0824862390      romy@gmail.com  3rd Prize
-3       Jill     Scott   0724845298    mary.j@gmail.com  4th Prize]
-[2023-02-27 15:22:15,817]--- [***** Application Ended. *****]
-[2023-02-27 15:24:01,405]--- [***** Application Started. *****]
-[2023-02-27 15:24:15,466]--- [File sample.csv Uploaded To Database.]
-[2023-02-27 15:24:18,660]--- [Competition_ID : Comp6393_dsad]
-[2023-02-27 15:24:23,605]--- [Winners selected: 4]
-[2023-02-27 15:24:23,619]--- [  first_name last_name phone_number               email    winners
-0       John    Morela   0814662390  john.m@outlook.com  1st Prize
-1       Tony  Harnedaz   0824862390      romy@gmail.com  2nd Prize
-2      Frank   Cancelo   0734562354   frank@vodacom.com  3rd Prize
-3      Marry      Jane   0724862390   marry.j@gmail.com  4th Prize]
-[2023-02-27 15:24:23,630]--- [***** Application Ended. *****]
+2      Thuli   Motaung   0734002390     thuli@yahoo.com  3rd Prize
+3       Bono     Ville   0813428403       bono@bono.com  4th Prize
+4       Tony  Harnedaz   0824862390      romy@gmail.com  5th Prize
+5      Marry      Jane   0724862390   marry.j@gmail.com  6th Prize]
+[2023-02-28 16:20:04,708]--- [***** Application Ended. *****]
