@@ -21,6 +21,10 @@ This a competition app that reads data from a csv and then data is imported and 
     TIPS: For setting environment variables on Windows Operting System
     https://www.youtube.com/watch?v=NDbr32xMUDQ&list=WL&index=2&t=74s
 
+    Setting environment variables on Linux 
+
+    [![asciicast](https://asciinema.org/a/vd1g5rEp2b8HZydgcUNPrmE6P.svg)](https://asciinema.org/a/vd1g5rEp2b8HZydgcUNPrmE6P)
+
 2. Excecute the batch file run_myscript.bat to run the application to skip below steps for Windows only.
 
 2. Install virtualenv via pip on the Host Machine
