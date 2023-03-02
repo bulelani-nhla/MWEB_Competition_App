@@ -1,0 +1,8 @@
+2023-03-02 11:21:48
+Competition ID : Comp8356_sample
+Winners selected: 4
+  first_name last_name phone_number              email    winners
+0      Thuli   Motaung   0734002390    thuli@yahoo.com  1st Prize
+1      Frank   Cancelo   0734562354  frank@vodacom.com  2nd Prize
+2      Marry      Jane   0724862390  marry.j@gmail.com  3rd Prize
+3       Tony  Harnedaz   0824862390     romy@gmail.com  4th Prize

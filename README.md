@@ -40,6 +40,7 @@ Configure the connection to the database using environment variables for the pas
 https://www.youtube.com/watch?v=NDbr32xMUDQ&list=WL&index=2&t=74s
 
 Create a database named testdb on mysql
+
 [![asciicast](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k.svg)](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k)
 
 

@@ -29,3 +29,35 @@
 4       Tony  Harnedaz   0824862390      romy@gmail.com  5th Prize
 5      Marry      Jane   0724862390   marry.j@gmail.com  6th Prize]
 [2023-02-28 16:20:04,708]--- [***** Application Ended. *****]
+[2023-03-02 09:53:01,391]--- [***** Application Started. *****]
+[2023-03-02 09:53:11,719]--- [File sample.csv Uploaded To Database.]
+[2023-03-02 09:53:47,723]--- [Competition_ID : Comp4705_MusicTickets]
+[2023-03-02 09:53:52,560]--- [Winners selected: 3]
+[2023-03-02 09:53:54,148]--- [  first_name last_name phone_number             email    winners
+0       Jill     Scott   0724845298  mary.j@gmail.com  1st Prize
+1       Rita    Lehasa   0814833390   rita@sabc.co.za  2nd Prize
+2       Romy      Wick   0711678983     romy@mweb.com  3rd Prize]
+[2023-03-02 09:53:54,184]--- [***** Application Ended. *****]
+[2023-03-02 11:21:12,253]--- [package: mysql.connector.plugins]
+[2023-03-02 11:21:12,265]--- [plugin_name: caching_sha2_password]
+[2023-03-02 11:21:12,383]--- [AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin]
+[2023-03-02 11:21:12,474]--- [package: mysql.connector.plugins]
+[2023-03-02 11:21:12,474]--- [plugin_name: mysql_native_password]
+[2023-03-02 11:21:12,482]--- [AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin]
+[2023-03-02 11:21:12,833]--- [***** Application Started. *****]
+[2023-03-02 11:21:30,822]--- [File sample.csv Uploaded To Database.]
+[2023-03-02 11:21:48,847]--- [Competition_ID : Comp8356_sample]
+[2023-03-02 11:21:53,801]--- [Winners selected: 4]
+[2023-03-02 11:21:54,281]--- [  first_name last_name phone_number              email    winners
+0      Thuli   Motaung   0734002390    thuli@yahoo.com  1st Prize
+1      Frank   Cancelo   0734562354  frank@vodacom.com  2nd Prize
+2      Marry      Jane   0724862390  marry.j@gmail.com  3rd Prize
+3       Tony  Harnedaz   0824862390     romy@gmail.com  4th Prize]
+[2023-03-02 11:21:54,377]--- [***** Application Ended. *****]
+[2023-03-02 11:59:19,517]--- [package: mysql.connector.plugins]
+[2023-03-02 11:59:19,521]--- [plugin_name: caching_sha2_password]
+[2023-03-02 11:59:19,545]--- [AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin]
+[2023-03-02 11:59:19,549]--- [package: mysql.connector.plugins]
+[2023-03-02 11:59:19,549]--- [plugin_name: mysql_native_password]
+[2023-03-02 11:59:19,565]--- [AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin]
+[2023-03-02 11:59:19,605]--- [***** Application Started. *****]

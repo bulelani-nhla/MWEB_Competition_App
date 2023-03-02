@@ -1,0 +1,7 @@
+2023-03-02 09:53:47
+Competition ID : Comp4705_MusicTickets
+Winners selected: 3
+  first_name last_name phone_number             email    winners
+0       Jill     Scott   0724845298  mary.j@gmail.com  1st Prize
+1       Rita    Lehasa   0814833390   rita@sabc.co.za  2nd Prize
+2       Romy      Wick   0711678983     romy@mweb.com  3rd Prize
