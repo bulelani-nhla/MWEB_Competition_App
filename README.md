@@ -21,6 +21,8 @@ This a competition app that reads data from a csv and then data is imported and 
 
     [![asciicast](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k.svg)](https://asciinema.org/a/4uLsIrbIwSVi9wJ6tp9Zpox7k)
 
+2. Excecute the batch file run_myscript.bat to run the application to skip below steps for Windows only.
+
 2. Install virtualenv via pip on the Host Machine
 
     ```bash
@@ -43,6 +45,12 @@ This a competition app that reads data from a csv and then data is imported and 
     pip install pyfiglet
     pip install pandas
     ```
+
+    Run application
+
+    ```bash
+    python application.py
+    ```
 3. Create a .gitignore file in your repository's root directory [virtualFolder] to tell Git which files and directories to ignore when you make a commit.
 
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files?platform=windows
@@ -60,4 +68,13 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 
 
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
 
