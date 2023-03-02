@@ -53,16 +53,16 @@ This a competition app that reads data from a csv and then data is imported and 
     ```
 3. Create a .gitignore file in your repository's root directory [virtualFolder] to tell Git which files and directories to ignore when you make a commit.
 
-https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files?platform=windows
+    https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files?platform=windows
 
---------------------------------------------------------------------------------------.
-
-
+    --------------------------------------------------------------------------------------.
 
 
 
-Generating a new SSH key and adding it to the ssh-agent 
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+
+    Generating a new SSH key and adding it to the ssh-agent 
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
 
