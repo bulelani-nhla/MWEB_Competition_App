@@ -14,7 +14,7 @@ This a competition app that reads data from a csv and then data is imported and 
 
 Configure the connection to the database using environment variables for the password and database name in python application.py code 
 
-Windows OS
+TIPS: For setting environment variables on Windows Operting System
 https://www.youtube.com/watch?v=NDbr32xMUDQ&list=WL&index=2&t=74s
 
 Create a database named testdb on mysql
