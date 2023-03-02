@@ -12,7 +12,7 @@ This a competition app that reads data from a csv and then data is imported and 
 
     • Install MySQL with MySQL Installer for Windows OS
 
-    Configure the connection to the database using environment variables for the password and database name in python application.py code 
+    Configure the connection to the database using environment variables for the password and database name in python app_modules.py code in line 30........... DB_PASSWORD="Type in password"   and     line 31............ DB_NAME="testdb"
 
     TIPS: For setting environment variables on Windows Operting System
     https://www.youtube.com/watch?v=NDbr32xMUDQ&list=WL&index=2&t=74s
